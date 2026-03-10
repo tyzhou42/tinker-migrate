@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-03-01T01:47:20",
+  "discrete_metrics_source": "e2e_hard_emitted_label",
+  "checkpoint_path": "",
+  "checkpoint_name": "transient_eval",
+  "step": 32,
+  "split": "test",
+  "dataset_fingerprint": "c2cb607f54c1f6fee334f6830ddc0c68e3a85a8628f8a06337c434bced3abca3",
+  "config_fingerprint": "d134ed563208853558e6fe1b0333095e36e697f052fc6cce22d2b834ac6a9f08",
+  "metrics": {
+    "loss": NaN,
+    "cls_loss": NaN,
+    "accuracy": 0.8133333333333334,
+    "macro_f1": 0.8075513196480939,
+    "auroc": NaN,
+    "auprc": NaN,
+    "invalid_label_rate": 0.0,
+    "decision_threshold": 0.5,
+    "balanced_accuracy": 0.8045248868778281,
+    "F1": 0.7741935483870968,
+    "mcc": 0.6178345991108026,
+    "precision": 0.8135593220338984,
+    "recall": 0.7384615384615385,
+    "tp": 48,
+    "fp": 11,
+    "fn": 17,
+    "tn": 74
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "run_dir": "/home/tzhou3/Financial-LLM-for-Analyst-Anomaly-Detection/tinker/runs/reasoning_sft_20260301_114319",
+  "teacher_dir": "/home/tzhou3/Financial-LLM-for-Analyst-Anomaly-Detection/tinker/runs/reasoning_sft_20260301_114319/teacher_phase",
+  "report_path": "/home/tzhou3/Financial-LLM-for-Analyst-Anomaly-Detection/tinker/runs/reasoning_sft_20260301_114319/test_report.md",
+  "final_model_path": "tinker://07445851-6b93-5435-a8b4-4bdfb719a72a:train:0/sampler_weights/reasoning_sft_20260301_114319_final",
+  "best_model_path": "tinker://07445851-6b93-5435-a8b4-4bdfb719a72a:train:0/sampler_weights/reasoning_sft_20260301_114319_best_step_0",
+  "resume_state_path": "tinker://07445851-6b93-5435-a8b4-4bdfb719a72a:train:0/weights/reasoning_sft_20260301_114319_resume_state",
+  "adapter_downloads": {},
+  "best_step": 0,
+  "best_val_macro_f1": 0.876282991202346,
+  "selection_metric": "macro_f1",
+  "best_val_selection_score": 0.876282991202346,
+  "best_val_selection_metric_value": 0.876282991202346,
+  "teacher_summary": {
+    "teacher_model": "deepseek-chat",
+    "teacher_workers": 15,
+    "requested_samples": 1005,
+    "accepted_samples": 612,
+    "rejected_samples": 393,
+    "acceptance_rate": 0.608955223880597,
+    "temperature_policy": {
+      "first_try_temperature": 0.0,
+      "retry_temperature": 1.0,
+      "first_try_max_retries": 1,
+      "retry_max_retries": 3
+    },
+    "first_try_metrics": {
+      "accuracy": 0.833810888252149,
+      "macro_f1": 0.8227992156313467,
+      "precision": 0.9230769230769231,
+      "recall": 0.6732673267326733,
+      "tp": 204,
+      "fp": 17,
+      "fn": 99,
+      "tn": 378
+    },
+    "with_retries_metrics": {
+      "accuracy": 0.8767908309455588,
+      "macro_f1": 0.8701367255105573,
+      "precision": 0.9578059071729957,
+      "recall": 0.7491749174917491,
+      "tp": 227,
+      "fp": 10,
+      "fn": 76,
+      "tn": 385
+    },
+    "first_try_invalid_rate": 0.0,
+    "with_retries_invalid_rate": 0.0
+  }
+}

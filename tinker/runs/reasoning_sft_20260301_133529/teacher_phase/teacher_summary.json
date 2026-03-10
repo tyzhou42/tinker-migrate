@@ -1,0 +1,36 @@
+{
+  "teacher_model": "deepseek-chat",
+  "teacher_workers": 15,
+  "requested_samples": 1005,
+  "accepted_samples": 612,
+  "rejected_samples": 393,
+  "acceptance_rate": 0.608955223880597,
+  "temperature_policy": {
+    "first_try_temperature": 0.0,
+    "retry_temperature": 1.0,
+    "first_try_max_retries": 1,
+    "retry_max_retries": 3
+  },
+  "first_try_metrics": {
+    "accuracy": 0.833810888252149,
+    "macro_f1": 0.8227992156313467,
+    "precision": 0.9230769230769231,
+    "recall": 0.6732673267326733,
+    "tp": 204,
+    "fp": 17,
+    "fn": 99,
+    "tn": 378
+  },
+  "with_retries_metrics": {
+    "accuracy": 0.8767908309455588,
+    "macro_f1": 0.8701367255105573,
+    "precision": 0.9578059071729957,
+    "recall": 0.7491749174917491,
+    "tp": 227,
+    "fp": 10,
+    "fn": 76,
+    "tn": 385
+  },
+  "first_try_invalid_rate": 0.0,
+  "with_retries_invalid_rate": 0.0
+}

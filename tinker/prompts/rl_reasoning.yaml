@@ -1,0 +1,45 @@
+task_instruction: "Decide whether the following text is hate speech. Label 1 for hate speech, and 0 for non-hate speech."
+rl_user_prompt_template: |-
+  {task_instruction}
+
+  Use the rulebook below as guidance to reason in details before selecting the label, but do not mention the rulebook explicitly.
+
+  Rulebook:
+  {rulebook}
+
+  Text:
+  {text}
+
+  The <label>...</label> block must be the final block of your response. Return exactly in this format:
+  <think>
+  rule-grounded reasoning
+  </think>
+  then exactly one of:
+  <label>
+  0
+  </label>
+  or
+  <label>
+  1
+  </label>
+rl_user_prompt_template_no_rulebook: |-
+  {task_instruction}
+
+  Reason in details. Then select the label.
+  Do not output any explanation after the label. 
+
+  Text:
+  {text}
+
+  The <label>...</label> block must be the final block of your response. Return exactly in this format:
+  <think>
+  your reasoning
+  </think>
+  then exactly one of:
+  <label>
+  0
+  </label>
+  or
+  <label>
+  1
+  </label>

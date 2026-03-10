@@ -1,0 +1,7 @@
+{
+  "saved_at": "2026-02-28T17:58:56",
+  "run_name": "reasoning_sft_20260228_163756",
+  "final_model_path": "tinker://31afb910-38cd-5cd6-ac6f-e4638610dd9f:train:0/sampler_weights/reasoning_sft_20260228_163756_final",
+  "best_model_path": "tinker://31afb910-38cd-5cd6-ac6f-e4638610dd9f:train:0/sampler_weights/reasoning_sft_20260228_163756_best_step_16",
+  "resume_state_path": "tinker://31afb910-38cd-5cd6-ac6f-e4638610dd9f:train:0/weights/reasoning_sft_20260228_163756_resume_state"
+}

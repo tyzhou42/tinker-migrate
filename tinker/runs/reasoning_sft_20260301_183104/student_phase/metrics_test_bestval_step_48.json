@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-03-01T19:30:36",
+  "discrete_metrics_source": "e2e_hard_emitted_label",
+  "checkpoint_path": "tinker://1f5b955e-6d45-5b30-8e47-e3ea60f3e09a:train:0/sampler_weights/reasoning_sft_20260301_183104_best_step_48",
+  "checkpoint_name": "reasoning_sft_20260301_183104_bestval",
+  "step": 48,
+  "split": "test_bestval",
+  "dataset_fingerprint": "c2cb607f54c1f6fee334f6830ddc0c68e3a85a8628f8a06337c434bced3abca3",
+  "config_fingerprint": "10afd924c410389cd0f88f725aa1e776c0b16aa7dea976e8c909d9047d565617",
+  "metrics": {
+    "loss": NaN,
+    "cls_loss": NaN,
+    "accuracy": 0.8333333333333334,
+    "macro_f1": 0.8300013599891201,
+    "auroc": NaN,
+    "auprc": NaN,
+    "invalid_label_rate": 0.0,
+    "decision_threshold": 0.5,
+    "balanced_accuracy": 0.8294117647058823,
+    "F1": 0.8062015503875969,
+    "mcc": 0.6600791727996613,
+    "precision": 0.8125,
+    "recall": 0.8,
+    "tp": 52,
+    "fp": 12,
+    "fn": 13,
+    "tn": 73
+  }
+}
